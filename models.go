@@ -771,6 +771,8 @@ type TokenOptions struct {
 	Code                *string   `json:"code,omitempty"`
 	ClientAssertionType *string   `json:"client_assertion_type,omitempty"`
 	ClientAssertion     *string   `json:"client_assertion,omitempty"`
+	RequestedSubject    *string   `json:"requested_subject,omitempty"`
+	SubjectToken        *string   `json:"subject_token,omitempty"`
 }
 
 // FormData returns a map of options to be used in SetFormData function
